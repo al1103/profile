@@ -87,6 +87,9 @@ body {
   }
 }
 @media only screen and (max-width: 395px) {
+   .nav {
+    width: 95% !important;
+  }
   .text {
     padding: 10px 30px;
     width: 280px;
@@ -96,8 +99,8 @@ body {
     overflow: hidden;
   }
   .svg {
-    height: calc(100vh - 200px) !important;
-    margin-top: 200px !important;
+    height: calc(100vh - 500px) !important;
+    margin-top: 500px !important;
   }
 }
 .svg {
@@ -185,7 +188,7 @@ path {
   display: flex;
   align-items: center;
   gap: 20px;
-  min-width: 250px;
+  min-width: 360px;
   width: 40%;
   height: 70%;
   position: relative;
