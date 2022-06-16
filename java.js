@@ -7,7 +7,7 @@ function hiddens() {
     images[0].style.display = "block"
 }
 const profile = document.getElementById("profile");
-setTimeout(profiles, 13500);
+setTimeout(profiles, 12300);
 function profiles() {
     images[0].style.display = "none"
     profile.style.display = "block";
