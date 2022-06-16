@@ -43,8 +43,7 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  min-height: 100vh;
-  height: 100vh;
+  height: calc(100vh - 20px);
   flex-direction: column;
   letter-spacing: 2px;
   font-family: "Black Ops One", cursive;
