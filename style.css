@@ -87,7 +87,7 @@ body {
   }
 }
 @media only screen and (max-width: 395px) {
-   .nav {
+  .nav {
     width: 95% !important;
   }
   .text {
@@ -98,21 +98,20 @@ body {
     width: 250px;
     overflow: hidden;
   }
-  .svg {
-    height: calc(100vh - 500px) !important;
-    margin-top: 500px !important;
-  }
 }
 .svg {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 100px);
   overflow: hidden;
   display: none;
-  margin-top: -50px;
+  padding-top: 100px;
+}
+.nav {
+  width: 90%;
 }
 path {
   stroke-dasharray: 1200;
-  animation: roll 7s ease-in;
+  animation: roll 6s ease-in;
   opacity: 1;
 }
 @keyframes roll {
@@ -188,9 +187,8 @@ path {
   display: flex;
   align-items: center;
   gap: 20px;
-  min-width: 360px;
   width: 40%;
-  height: 70%;
+  height: 60%;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -217,7 +215,6 @@ path {
 .link:hover {
   transform: scale(1.2);
   transition: 300ms ease-in;
-  border: 2px solid black;
 }
 .link > ion-icon {
   flex: 1;
