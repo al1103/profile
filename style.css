@@ -151,7 +151,7 @@ path {
   display: flex;
   flex-direction: column;
   background: linear-gradient(#be5a18, #354aaa);
-  /* display: none; */
+  display: none;
 }
 .avatar {
   flex: 0 1 30%;
