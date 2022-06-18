@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -146,11 +147,13 @@ path {
   }
 }
 .profile {
+  overflow: hidden;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(#be5a18, #354aaa);
+  user-select: none;
+  /* background: linear-gradient(#be5a18, #354aaa); */
   display: none;
 }
 .avatar {
@@ -177,7 +180,8 @@ path {
   text-align: center;
   padding-top: 10px;
   text-transform: uppercase;
-  font-family: "Black Ops One", cursive;
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Space Mono", monospace;
   color: #ffffff;
   text-shadow: 0px 0px 10px #04cfd3, 0px 0px 20px #04cfd3, 0px 0px 30px #04cfd3,
     0px 0px 40px #04cfd3;
@@ -244,7 +248,7 @@ path {
   color: rgb(241 153 7);
 }
 #google {
-  color: rgb(66 133 244);
+  color: rgb(255, 255, 255);
 }
 #tiktok {
   color: #dabfbfe3;
@@ -260,4 +264,9 @@ path {
     width: 95% !important;
   }
 }
-
+.video {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
