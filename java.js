@@ -10,7 +10,7 @@ const profile = document.getElementById("profile");
 setTimeout(profiles, 12300);
 function profiles() {
     images[0].style.display = "none"
-    profile.style.display = "block";
+    profile.style.display = "flex";
     console.log("done");
 
 }
